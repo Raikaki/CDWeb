@@ -3,8 +3,8 @@ import axios from 'axios'; // You may need to install axios for HTTP requests
 import './bootstrap.min.css'; // Import Bootstrap CSS
 import './owl.carousel.min.css';
 import Carousel from './Carousel';
-
-import '/Users/Admin/animeweb/src/css/ds/style.css'
+import Topview from './Topview'
+import '/CDweb2/src/css/ds/style.css'
 function AnimePage() {
     const [movies, setMovies] = useState([]);
     const [filter, setFilter] = useState('isAtoZ');
@@ -94,7 +94,9 @@ function AnimePage() {
         </div>
       </div>
     </section>
+    <Topview/>
     </div>
+ 
         
     );
 }
